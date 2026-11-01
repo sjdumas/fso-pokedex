@@ -49,7 +49,7 @@ The workflows use two repository secrets: `RENDER_DEPLOY_HOOK` and `DISCORD_WEBH
 
 - **Pokémon page links only work from inside the app.** The production server only serves the files in `dist/`, so opening or refreshing a URL like `/pokemon/ivysaur` directly returns a 404. The dev server does not have this problem.
 
-## Exercises 21 and 22 (own pipeline)
+## Exercises 21 and 22 (Own Pipeline)
 
 Exercises 21 and 22 are in a separate repository, which builds a similar CI/CD pipeline for my own phonebook application.
 
